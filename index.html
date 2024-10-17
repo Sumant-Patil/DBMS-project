@@ -11,29 +11,39 @@
 <body>
     <div id="navbar">
         <br>
-        <a id="if"href="international.html">International Flights</a>
-        <a id="df"href="national.html"target ="_main">domestic Flights</a>
-        <a href="" target="_main">My bookings</a>
-        <a id ="logo"href="login.html" target="_main">Flight Booking </a>
+        <a id ="logo"href="login.html" target="_main"><img id="img1"src="airplane-ticket.png">Booking App</a>
+        <a id="if"href="international.html"><img id="img1"src="cashback.png" alt="">Refunds</a>
+        <a id="df"href="national.html"target ="_main"><img id="img1"src="customer-service.png" alt="">Customer care</a>
+        <a id="booking" href="" target="_main"><img id="img1"src="airplane.png" alt="">  My Booking</a>
     </div>
     <br>
     <br>
-    <h2>select Date of travelling<b></b></h2>
+    <img id="bgimg" src = "plane.jpeg" width="500">
+    <br>
+    <br>
+    <h2>Select date of travelling<b></b></h2>
     <br>
     <input type="date" id="date" placeholder="date of travell">
     <br>
     <br>
     <br>
-    <img  src = "plane.jpeg" width="500">
+    <h2>Type of Flights</h2>
     <br>
+    <label class="f" >
+    <input type="radio" id="if" name="Flight" value="International Flight">
+    International Flights</label>
+    <label class="f">
+    <input type="radio" id="if" name="Flight" value="domestic Flight">
+    domestic Flight</label><br>
     <br>
     <br>
     <input type="text" class="inputcity" placeholder="departure city">
     <br>
-    <br>
-    <button >to</button>
-    <br>
+    <button id="to">to</button>
     <br>
     <input type="text" class="inputcity" placeholder="arrival city">
+    <br>
+    <br>
+    <button id="search">Search</button>
 </body>
 </html>
