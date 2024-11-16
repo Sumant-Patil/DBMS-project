@@ -1,0 +1,59 @@
+
+body {
+    text-align: center;
+    background-image: url("images/background.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 748px;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+
+div{
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 0;
+    height: 500px;
+    width:500px;
+    background-color: azure;
+    border-color: aqua;
+}
+#navbar{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0cap;
+    height: 70px;
+    background-color: rgb(21, 164, 220);
+}
+#login{
+    font-size: larger;
+    font-weight: 700;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(103, 189, 249);
+    border-radius: 20px;
+}
+#user{
+    font-size: larger;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+}
+#signin{
+    text-decoration-color: black;
+    font-size: larger;
+    font-weight: 700;
+    height: 50px;
+    width:300px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgb(103, 189, 249);
+    margin-left: 100px;
+    align-self: center;
+}
+#applogo{
+    width: 10px;
+}
